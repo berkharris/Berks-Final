@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(241, 255, 241);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* div styles*/
+.common{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+}
+.top{
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    align-items: center;
+}
+.bottom{
+   position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: bold;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 5px solid lightgreen;
+
+}
